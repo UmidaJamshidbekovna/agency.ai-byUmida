@@ -8,7 +8,7 @@ const ServiceCard = ({service, title}) => {
   const divRef = useRef(null)
 
   const handleMouseMove = (e) =>{
-    const bounds = divRef.current.getBoundingClientReact();
+    const bounds = divRef.current.getBoundingClientRect();
     setPosition({x:e.clientX - bounds.left, y: e.clientY - bounds.top})
   }
 

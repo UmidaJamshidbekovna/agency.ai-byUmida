@@ -3,7 +3,7 @@ import React from 'react'
 const Title = ({title, desc }) => {
   return (
     <div>
-        <h2 className='text-3xl sm:text-5xl font-medium'>
+        <h2 className='text-center text-3xl sm:text-5xl font-medium'>
             {title}
         </h2>
         <p className='max-w-lg text-center text-gray-500 dark:text-white/75 mb-6'>
