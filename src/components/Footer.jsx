@@ -28,6 +28,27 @@ const Footer = ({theme}) => {
                 <h3 className='font-semibold'>
                     Subscribe to our newsletters
                 </h3>
+                <p className='text-sm mt-2 mb-6 max-w-md'>
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptas aliquid repudiandae reiciendis explicabo excepturi? Facilis non commodi blanditiis.
+                </p>
+                <div className='flex gap-2 text-sm'>
+                    <input type="email" placeholder='Enter Your Email...'  className=' p-3 text-sm outline-none  rounded dark:text-gray-200 bg-transparent border border-gray-300  dark:border-gray-500'/>
+                    
+                    <button className='bg-primary text-white  rounded px-6'>
+                        Subscribe 
+                    </button>
+                </div>
+            </div>
+        </div>
+        <hr  className='border-gray-300 dark:border-gray-600 my-6'/>
+
+        <div className='pb-6 text-sm text-gray-500 flex justify-center sm:justify-between gap-4 flex-wrap '>
+            <p>Copyright 2025 @ byUmida - All Right Reserved </p>
+            <div className='flex items-center justify-between gap-4 '>
+                <img src={assets.facebook_icon} alt="" />
+                <img src={assets.twitter_icon} alt="" />
+                <img src={assets.instagram_icon} alt="" />
+                <img src={assets.linkedin_icon} alt="" />
             </div>
         </div>
     </div>
