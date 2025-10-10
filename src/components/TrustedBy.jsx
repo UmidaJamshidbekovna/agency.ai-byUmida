@@ -1,6 +1,6 @@
 import React from 'react'
 import {company_logos} from '../assets/assets'
-import { easeOut, motion } from "motion/react"
+import {  motion } from "motion/react"
 
 const TrustedBy = () => {
   return (
